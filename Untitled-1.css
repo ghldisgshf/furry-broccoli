@@ -1,6 +1,6 @@
 p{text-align: center;}
 
-h1{text-align: right;}
+h1{text-align: center;}
 
 h2{text-align: center;}
 h3{text-align: center;}
@@ -11,3 +11,12 @@ li{text-align: center}
 ul{text-align: center}
 
 ul style="list-style-type:circle"{text-align: center}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
